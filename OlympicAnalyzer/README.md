@@ -8,7 +8,7 @@ Example of analyzing Olympic data
 -
 1. olympic.lex - used as "command" file for Flex compiler. Generate the C file.
 ```
-win_flex.exe olympic.lex
+flex.exe olympic.lex
 ```
 2. olympic.c - the generated result file from the Flex compiler, in C language. Compile the file using GCC compiler:
 ```
@@ -18,6 +18,8 @@ gcc olympic.c -o OlympicAnalyzer.exe
 ```
 OlympicAnalyzer.exe data.txt
 ``` 
+You can find the necessary tools under the Tools directory.
+
 ---
 
 TODO
